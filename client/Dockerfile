@@ -12,7 +12,7 @@ RUN npm install
 # Copy all other files to /app directory in the container
 COPY . .
 
+EXPOSE 3000
+
 # Command to run the app
 CMD ["npm", "run", "dev"]
-
-EXPOSE 80
