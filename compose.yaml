@@ -3,10 +3,10 @@ services:
     image: frontend
     container_name: frontend_container
     build:
-      context: ./client
+      context: .
       dockerfile: Dockerfile
     ports:
       - 3000:3000
     volumes:
-      - ./client:/app
+      - .:/app
       - /app/node_modules
