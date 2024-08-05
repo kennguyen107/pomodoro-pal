@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "PomodoroPal",
-  description: "An app where you can study with friends using Pomodoro Technique!",
+  description: "An online app where you can study with friends using Pomodoro Technique!",
 };
 
 export default function RootLayout({
